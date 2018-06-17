@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:support="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/menu_salvar"
+        android:icon="@drawable/ic_action_settings"
+        android:title="@string/menu_salvar"
+        support:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_excluir"
+        android:icon="@drawable/ic_action_settings"
+        android:title="@string/menu_excluir"
+        support:showAsAction="never"/>
+
+</menu>

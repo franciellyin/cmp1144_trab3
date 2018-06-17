@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_excluir">Excluir</string>
+    <string name="menu_salvar">Salvar</string>
+    <string name="form_name">Agenda - Formulário</string>
+    <string name="main_name">AGENDA</string>
+    <string name="btAdd">+</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="field_nome">Nome</string>
+    <string name="field_telefone">Telefone</string>
+    <string name="field_email">Email</string>
+    <string name="btSalvar">Salvar</string>
+    <string name="btVoltar">Voltar</string>
+
+</resources>
