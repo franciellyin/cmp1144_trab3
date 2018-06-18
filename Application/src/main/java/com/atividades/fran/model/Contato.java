@@ -2,6 +2,7 @@ package com.atividades.fran.model;
 
 public class Contato {
 
+    private Integer id;
     private String nome;
     private String telefone;
     private String email;
@@ -13,6 +14,14 @@ public class Contato {
     }
 
     public Contato() {
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public String getNome() {
