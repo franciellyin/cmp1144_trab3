@@ -9,12 +9,16 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/main_name"
         android:theme="@style/Theme.AppCompat">
-        <activity android:name=".view.FormActivity">
+        <activity android:name=".view.FormActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
 
         </activity>
         <activity
             android:name=".view.MainActivity"
-            android:label="@string/title_activity_main">
+            android:label="@string/title_activity_main"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

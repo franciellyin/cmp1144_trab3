@@ -57,7 +57,6 @@ public class FormActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate our menu from the resources by using the menu inflater.
         getMenuInflater().inflate(R.menu.main, menu);
 
         return true;
